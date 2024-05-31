@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 * { 
 box-sizing: border-box; 
@@ -64,7 +64,7 @@ font-size: .70em;
 font-style: italic;
 padding: 1em;
 text-align: center;
-color:white;
+color: white;
 }
 
 img {
@@ -73,7 +73,7 @@ img {
   margin:60px;
 }
 
-body {  
+body {
 background-color: #ccd5ae;
 color: black; 
 margin: 0;
