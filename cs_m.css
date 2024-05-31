@@ -78,3 +78,48 @@ background-color: #ccd5ae;
 color: black; 
 margin: 0;
 }
+
+@media (max-width:450px){
+  nav{
+    order:1;
+  }
+  header{
+    order:2;
+  }
+  main{
+    order:3;
+  }
+  footer{
+    order:4;
+  }
+  main{
+    width:100%;
+  }
+  h4{
+    text-align:center;
+  }
+  h2{
+    text-align:center;
+  }
+  p{
+    text-align:center;
+    margin:0;
+  }
+  blockquote{
+    text-align:center;
+  }
+}
+@media(max-width:575px){
+  .right{
+    float:none;
+    height:auto;
+    width:300px;
+    display:block;
+    padding:2px;
+    margin-top:25px;
+    margin-bottom:5px;
+    border-radius:5%;
+    border:0.5px solid #504E53;
+    background-color:#504E53;
+  }
+}
