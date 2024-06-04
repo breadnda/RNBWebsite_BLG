@@ -40,7 +40,7 @@ nav a
 nav a:link       
 { color: white; }
 nav a:visited 
-{ color: #344873; }
+{ color: white; }
 nav a:hover     
 { color: #A52A2A; }
 
