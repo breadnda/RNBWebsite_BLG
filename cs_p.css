@@ -40,7 +40,7 @@ nav a
 nav a:link       
 { color: white; }
 nav a:visited 
-{ color: white; }
+{ color: #white; }
 nav a:hover     
 { color: #A52A2A; }
 
@@ -71,10 +71,10 @@ img {
   display: inline-block;
   float:right;
   margin:60px;
-      padding:2px;
-    border-radius:5%;
-    border:0.5px solid #504E53;
-    background-color:#504E53;
+  padding: 2px;
+  border-radius:5%;
+  border:0.5px solid #504E53;
+  background-color:#504E53;
 }
 
 body {
@@ -116,14 +116,14 @@ margin: 0;
 @media(max-width:575px){
   img{
     float:none;
-    height:auto;
-    width:300px;
+    height: auto;
+    width: 300px;
     display:block;
     padding:2px;
     border-radius:5%;
     border:0.5px solid #504E53;
-    background-color:#504E53;
-    margin:auto;
+    background-color: #504E53;
+    margin: auto;
     margin-top: 30px;
   }
 }
