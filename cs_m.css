@@ -11,7 +11,7 @@ margin: 0;
 }
 
 header { 
-background-color: #6f1d1b;
+background-color: #a3b18a;
 color: black;
 font-family: "Nunito Sans", sans-serif;
 padding: 1em;
@@ -30,7 +30,7 @@ h3 {
 font-family: Georgia, serif; 
 }
 nav { 
-background-color: #99582a;
+background-color: #b7bf9d;
 font-size: 1.2em;
 text-align: center;
 border-bottom: 2px solid black;
@@ -40,7 +40,7 @@ nav a
 nav a:link       
 { color: white; }
 nav a:visited 
-{ color: #344873; }
+{ color: white; }
 nav a:hover     
 { color: #A52A2A; }
 
@@ -59,7 +59,7 @@ padding: 8px;
 }
 footer { 
 clear: both;  
-background-color: #6f1d1b;
+background-color: #a3b18a;
 font-size: .70em;
 font-style: italic;
 padding: 1em;
@@ -74,11 +74,11 @@ img {
   padding: 2px;
   border-radius:5%;
   border:0.5px solid #504E53;
-  background-color:#504E53;
+  background-color: #504E53;
 }
 
 body {  
-background-color: #ffe6a7;
+background-color: #ccd5ae;
 color: black; 
 margin: 0;
 }
@@ -114,16 +114,16 @@ margin: 0;
   }
 }
 @media(max-width:575px){
-  .img{
+  img{
     float:none;
     height:auto;
-    width:300px;
+    width: 300px;
     display:block;
     padding:2px;
-    margin-top:25px;
-    margin-bottom:5px;
     border-radius:5%;
     border:0.5px solid #504E53;
-    background-color:#504E53;
+    background-color: #504E53;
+    margin:auto;
+    margin-top: 30px;
   }
 }
